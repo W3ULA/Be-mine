@@ -1,0 +1,39 @@
+/* Скидання */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Основний фон та центрування */
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: stretch;
+    background: #fafafa;
+}
+
+.column-left {
+    width: 160px;
+    background: #fff;
+    height: 100vh;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0 10px 10px 0;
+    box-sizing: border-box;
+
+}
+
+.logout{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    width: 120px;
+    font-size: 16px;
+    margin-left: 0;
+}
+.logout img{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}

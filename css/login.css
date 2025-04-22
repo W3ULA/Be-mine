@@ -1,0 +1,89 @@
+/* Скидання */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Основний фон та центрування */
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    background: #fafafa;
+}
+
+/* Центрована колонка */
+.column-center {
+    width: 400px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: fit-content;
+}
+
+
+/* Кнопка логіну */
+.login {
+    width: 90%;
+    margin-bottom:20px;
+    padding: 8px;
+    font-size: 20px;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    color: #000;
+    background: #fff;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+    
+}
+.login-in:hover {
+    background: #000;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.login-in:focus {
+    background: #000;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.login-button {
+    background: #000;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+/* Для Edge/IE */
+input::-ms-reveal,
+input::-ms-clear {
+    display: none;
+}
+
+/* Для Safari/Chrome */
+input[type="password"]::-webkit-contacts-auto-fill-button {
+    display: none;
+}
+
+/* Для Firefox */
+input[type="password"]::-moz-placeholder {
+    display: none;
+}
+
+/* Форма */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+  

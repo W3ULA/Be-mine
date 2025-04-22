@@ -1,0 +1,68 @@
+.gothic {
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.rubik {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+.kumar {
+    font-family: "Kumar One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    background: #f0f0f0;
+}
+.column-center {
+    width: 400px;
+    height: 80vh;
+    background: #ccc;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    border-radius: 15px;
+    align-items: center;
+}
+.login {
+    border: black 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 90%;
+    font-size: 20px;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    background: #fff;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    outline: none;
+}
+.login:hover {
+    background: #000;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}

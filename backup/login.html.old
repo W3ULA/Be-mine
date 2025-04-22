@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be mine</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Asset&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Kumar+One&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+<body>
+    <div class="column-center">
+        <h1 class="kumar" style="font-size: 60px;margin-bottom: 0px;">Be mine</h1>
+
+        <div class="login-form">
+            <h2 class="gothic">Login</h2>
+            <input type="text" id="name" placeholder="Your name" class="login">
+            <h2 class="gothic">Password</h2>
+            <input type="password" id="password" placeholder="Password" class="login">
+
+            <input type="checkbox" id="show-password" class="checkbox">
+            <label for="show-password" class="checkbox-label">Show password</label>
+
+            <button class="login" id="login-button">Log in</button>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="icon" href="img/logo.ico" type="image/ico" />
+    <!-- Custom CSS -->
+     <link rel="stylesheet" href="css/fonts.css"/>
+    <link rel="stylesheet" href="css/login.css"/>
+</head>
+<body>
+    <div class="column-center">
+        <h1 class="kumar-one-regular" style="font-size: 60px;">Be mine</h1>
+
+        <form class="login-form">
+
+            <input type="text" id="name" placeholder="Your name" class="login login-in" autocomplete="off"/>
+
+            <input type="password" id="password" class="login login-in" style="margin-bottom: 10px;" placeholder="Password" autocomplete="off"/>
+
+            <div style="margin: 10px 0;">
+                <input type="checkbox" id="show-password" />
+                <label for="show-password" class="special-gothic-expanded-one-regular">Show password</label>
+            </div>
+
+            <p id="error-message" style="margin: 10px 0; font-family:'Rubik Mono One', sans-serif;font-size: 10px;"></p>
+
+            <button type="submit" class="login login-button" id="login-button">Log in</button>
+        </form>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="js/login.js"></script>
+</body>
+</html>
