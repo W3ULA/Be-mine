@@ -24,7 +24,7 @@ document.getElementById("login-button").addEventListener("click", function (even
     const password = document.getElementById("password").value;
 
     // Проста перевірка
-    if (username === "Oleksii" && password === "govno") {
+    if (username === "Oleksii" && password === "123") {
         // Редірект
         window.location.href = "main.html"; // зміни на свій файл
     } else {
@@ -35,3 +35,26 @@ document.getElementById("login-button").addEventListener("click", function (even
 
     }
 });
+
+setInterval(showTime, 1000);
+function showTime() {
+    let time = new Date();
+    let hour = time.getHours();
+    let min = time.getMinutes();
+
+    hour =
+        hour < 10 ? "0" + hour : hour;
+    min = min < 10 ? "0" + min : min;
+
+    let currentTime =
+        hour +
+        ":" +
+        min;
+
+    // Displaying the time
+    document.getElementById(
+        "clock"
+    ).innerHTML = currentTime;
+}
+
+showTime();
