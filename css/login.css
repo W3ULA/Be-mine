@@ -27,7 +27,6 @@ body {
     height: fit-content;
 }
 
-
 /* Кнопка логіну */
 .login {
     width: 90%;
@@ -44,7 +43,6 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
     outline: none;
-    
 }
 .login-in:hover {
     background: #000;
@@ -55,6 +53,7 @@ body {
     background: #000;
     color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    caret-color: transparent;
 }
 .login-button {
     background: #000;
