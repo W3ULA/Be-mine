@@ -26,13 +26,11 @@ document.getElementById("login-button").addEventListener("click", function (even
     // Проста перевірка
     if (username === "Oleksii" && password === "123") {
         // Редірект
-        window.location.href = "main.html"; // зміни на свій файл
+        window.location.href = "main.html";
     } else {
         // Показати повідомлення про помилку
         const errorMessage = document.getElementById("error-message");
         errorMessage.textContent = "Invalid username or password";
-        errorMessage.style.color = "red";
-
     }
 });
 

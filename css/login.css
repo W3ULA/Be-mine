@@ -1,23 +1,16 @@
-/* Скидання */
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
 /* Основний фон та центрування */
 body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: stretch;
-    background: #fafafa;
+    background:var(--html-background-color);
 }
 
 /* Центрована колонка */
 .column-center {
     width: 400px;
-    background: #fff;
+    background: var(--main-background-color);
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -45,20 +38,20 @@ body {
     outline: none;
 }
 .login-in:hover {
-    background: #000;
+    background: var(--button-background-color);
     color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: var(--button-box-shadow);
 }
 .login-in:focus {
-    background: #000;
+    background: var(--button-background-color);
     color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: var(--button-box-shadow);
     caret-color: transparent;
 }
 .login-button {
-    background: #000;
+    background: var(--button-background-color);
     color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: var(--button-box-shadow);
 }
 /* Для Edge/IE */
 input::-ms-reveal,
@@ -84,5 +77,14 @@ input[type="password"]::-moz-placeholder {
     justify-content: center;
     width: 100%;
 }
+<<<<<<< Updated upstream
 
   
+=======
+.error-message {
+    color: var(--error-text-color);
+    font-size: 10px;
+    margin: 10px 0;
+}
+  
+>>>>>>> Stashed changes
