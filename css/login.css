@@ -25,8 +25,18 @@ body {
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     height: fit-content;
+    animation: fadein;
+    animation-duration: 2s;
+    animation-delay: -0.2s;
 }
-
+@keyframes fadein{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 /* Кнопка логіну */
 .login {
     width: 90%;

@@ -25,6 +25,16 @@ body {
 .column-left-head {
     border-radius: 0 10px 0 0;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.logo {
+    font-size: 24px;
+    padding: 20px;
+    padding-bottom: 0px;
+    margin: 0;
+    border-radius: 0 10px 0 0;
+    cursor: pointer;
 }
 
 .logout{
@@ -38,6 +48,7 @@ body {
     width:160px;
     box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
     border-radius: 0 0 10px 0;
+    cursor: pointer;
 }
 .logout img{
     width: 25px;
@@ -74,4 +85,27 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.column-left-content-item{
+    cursor: pointer;
+}
+
+.column-left-content-item:hover {
+    background-color: #d3d3d3;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid gray;
+    transition: 0.3s;
+}
+hr {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    margin: 0;
+    border: none;
+    background-color: black;
 }
