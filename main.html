@@ -5,20 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Be mine</title>
     <link rel="icon" href="img/logo.ico" type="image/ico">
-    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=logout" />
 </head>
 <body>
     <div class="column-left">
-        <div class="column-left-head">
-            <h1 class="kumar-one-regular" style="font-size: 24px; padding: 20px; padding-bottom: 0px ;margin: 0;">Be mine</h1>
+        <div class="column-left-head" onmousedown="return false" onselectstart="return false">
+            <h1 class="kumar-one-regular" onclick="window.location.href='main.html'" role="button" tabindex="1" style="font-size: 24px; padding: 20px; padding-bottom: 0px ;margin: 0;">Be mine</h1>
             <hr>
         </div>
 
+        <div class="column-left-content">
+            <div class="column-left-content-item" onclick="window.location.href='clicker.html'" role="button" tabindex="0">
+                <p class="ibm-plex-mono-bold">Clicker</p>
+                <hr>
+            </div>
+        </div>
+
         <div class="logout no-select" onclick="window.location.href='login.html'" role="button" tabindex="0">
-            <!--<img src="img/logout_black.png">-->
             <p class="ibm-plex-mono-bold" style="margin-left: 50px;">Logout</p>
         </div>
     </div>
